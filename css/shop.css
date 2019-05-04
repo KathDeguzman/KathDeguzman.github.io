@@ -1,0 +1,101 @@
+body {
+	background-color: white;
+}
+
+a	{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+.header {
+	height: 220px;
+	width: 100%;
+	z-index: 2;
+	overflow: hidden;
+}
+
+.logo {
+	float: left;
+	height: 150px;
+	width: 15%
+}
+
+#logo {
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
+.main {
+	float: left;
+	width: 60%;
+}
+
+ul {
+	text-align: center;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	line-height: 40px;
+}
+li {
+	list-style: none;
+	text-decoration: none;
+	color: black;
+	border-left: 1px solid black;
+}
+
+.contact {
+	border-right: 1px solid black;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+li:hover {
+	background:#FFE87C;
+}
+
+b {
+	line-height: 20px;
+	color:#F0E68C;
+	font-size: 40px;
+	margin-left: 105px;
+	font-family: trebuchet ms;
+	text-align: center;
+}
+div.photos {
+	display: inline;
+	padding-top: 48px;
+	float: left;
+	width: 180px;
+}
+
+div.photos img {
+	display: inline;
+	width: 270px;
+	height: 270px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  background-color: white;
+  margin: 100px;
+}
+
+.grid-container > div {
+  background-color: white;
+  text-align: center;
+  font-size: 15px;
+  font-family: arial;
+}
+.grid-container > div:hover {
+	color: blue;
+}
+.cop {
+	font-family: Arial;
+	size: 10;
+	text-align: center;
+}

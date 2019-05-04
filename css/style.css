@@ -1,0 +1,152 @@
+body {
+	font-family: trebuchet ms;
+}
+
+.header {
+	height: 220px;
+	width: 100%;
+	z-index: 2;
+	overflow: hidden;
+}
+
+.logo {
+	float: left;
+	height: 150px;
+	width: 15%
+}
+
+#logo {
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
+.main {
+	float: left;
+	width: 60%;
+}
+
+ul {
+	text-align: center;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	line-height: 40px;
+}
+li {
+	list-style: none;
+	text-decoration: none;
+	color: black;
+	border-left: 1px solid black;
+}
+
+.contact {
+	border-right: 1px solid black;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+
+li:hover {
+	background:#FFE87C;
+}
+
+.showcase {
+	height: 100vh;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	background-image: url(../images/bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.content {
+	margin-top:30px;
+	width: 100%;
+	overflow: hidden;
+	background: white;
+}
+
+.left {
+	float: left;
+	width: 45%;
+	padding-left: 25px;
+	background: #FFF8C6;
+	margin-top: 60px;
+	text-align: center;
+}
+
+.right {
+	float: left;
+	width: 50%;
+}
+
+.women {
+	margin: 30px;
+	height: 35vh;
+	background-image: url(../images/salew.jpg);
+	transition: 0.5s   all ease-in-out;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border: 1px solid black;
+}
+
+.women:hover{
+	background-image:url(../images/hp-hero-02.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+}
+.men {
+	margin: 30px;
+	height: 35vh;
+	background-image: url(../images/salem.jpg);
+	transition: 0.5s  all ease-in-out;
+	border: 1px solid black;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.men:hover{
+	background-image: url(../images/hp-hero-01.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+}
+.women1{
+	background: white;
+	opacity: 0.4;
+	line-height: 475px;
+	text-align: center;
+}
+
+footer {
+    font-family: "Copperplate Gothic";
+    text-align: center;
+    height: 118px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#social img {
+    width: 40px;
+    border-radius: 50px;
+}
+
+#social img:hover {
+    box-shadow: 0px 3px 15px 0px #CD6155;
+}
+
+#social h3 {
+    margin: 5px;
+}
+
+footer p {
+    font-family: "Constantia";
+	text-align: center;
+}
+
